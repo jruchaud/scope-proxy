@@ -35,12 +35,15 @@ Usage
 `$scope.value -> "value"`
 
 - However you cannot access in kernel.js
+
 `$scope.value -> undefined`
 
 - Otherwise you can use exportScope:
 
-`$scope.exportScope(MyClass)`
-`$scope.exportScope(new MyClass(), "myClass");`
+```
+$scope.exportScope(MyClass)
+$scope.exportScope(new MyClass(), "myClass");
+```
 
 ### Share variable/object from other module ###
 
@@ -50,5 +53,7 @@ Usage
 
 - You can use it in service.js like:
 
-`var kernel = $scope.importScope("kernel");`
-`kernel.value -> "value"`
+```
+var kernel = $scope.importScope("kernel");
+kernel.value -> "value"
+```
