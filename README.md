@@ -5,7 +5,10 @@ Installation
 ============
 
 `npm install git://github.com/jruchaud/scope-proxy.git`
-`<script type="application/javascript" src="/node_modules/scope-proxy/scope-proxy.js"></script>`
+
+```js
+<script type="application/javascript" src="/node_modules/scope-proxy/scope-proxy.js"></script>
+```
 
 Usage
 =====
