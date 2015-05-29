@@ -1,0 +1,24 @@
+{
+  "name": "scope-proxy",
+  "version": "1.0.0",
+  "description": " Create scope for script tag with a proxy ",
+  "main": "scope-proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jruchaud/scope-proxy.git"
+  },
+  "keywords": [
+    "js",
+    "proxy",
+    "scope"
+  ],
+  "author": "jruchaud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jruchaud/scope-proxy/issues"
+  },
+  "homepage": "https://github.com/jruchaud/scope-proxy#readme"
+}
